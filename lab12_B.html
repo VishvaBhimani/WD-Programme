@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin-left: 60px;
+            margin-top: 25px;
+        }
+        input:hover{
+            border: 1px solid blue ;
+            background-color: rgb(183, 196, 222);
+            border-radius: 5px;
+        }
+        sub:hover{
+             background-color: red;
+             border: 1px solid rgb(228, 139, 139);
+        }
+        input:focus{
+            background-color: rgb(205, 161, 232);
+        }
+        form:invalid{
+            cursor: not-allowed;
+            
+        }
+        button:active{
+            background-color: blue;
+        }
+        button:hover{
+            background-color: rgb(146, 83, 204);
+        }
+
+
+       
+    </style>
+</head>
+<body>
+    <form>
+   
+    <input type="text" id="fname" required placeholder="firstname" /><br>
+   
+    <input type="text" id="lname" required placeholder="lastname" /><br>
+  
+    <input type="text" id="num" required placeholder="0123456789" /><br>
+     <button>submit</button>
+      </form>
+</body>
+</html>
